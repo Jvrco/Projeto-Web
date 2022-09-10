@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: url(image\ background.svg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 80px
+    }
+.header-imagem {
+    height: 72px;
+    width: 150px;
+}
+.header-menu {
+    display: flex;
+    gap: 50px;
+}
+.header-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+main{
+    border-top: 0.4px solid ;
+}
+.main-principal{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.main-principal-imagem{
+    height: 150px;
+    
+    filter:drop-shadow(10px 10px 10px #1f1f1f);
+    border-radius: 200px;
+
+    
+
+}
+.main-principal-texto{
+    display:flex;
+    flex-direction: column;
+
+}
+.main-principal-texto-frase{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400px;
+    font-size: 40px;
+}
+.main-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    margin-top: 50px  ;
+}
+.main-secundario-titulo{
+    font-family: 'Oswald', sans-serif;
+}
+.main-secundario-texto{
+    align-items: center;
+}
+.main-terciario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    margin-top: 50px  ;
+}
+.main-terciario-titulo{
+    font-family: 'Oswald', sans-serif;
+}
+.main-terciario-texto{
+    margin-left: 40px;
+}
+.main-terciario-imagem{
+    height: 400px;
+    margin-top: -200px;
+}
+.main-quaternario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    margin-top: 50px  ;
+    margin-bottom: 100px;
+}
+.main-quaternario-titulo{
+    font-family: 'Oswald', sans-serif;
+}
+.main-quaternario-lista{
+    gap:20px;
+}
+.footer-imagem{
+    height:50px;
+}
+@media (max-width:700px) {
+ .main-terciario-imagem {
+        width: 300px;
+    }
+ .header-imagem{
+    width: 100px;
+    margin-right: 20px;
+}
+.main-principal{
+    display: flex;
+    flex-direction: column;
+}
+.main-secundario-texto{
+    margin-left: 40px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+}
